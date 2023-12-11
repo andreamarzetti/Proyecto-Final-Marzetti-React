@@ -4,7 +4,7 @@ import { getFirestore, getDoc, doc } from "firebase/firestore";
 import Container from "react-bootstrap/Container";
 
 import { CartContext } from "../contexts/CartContext";
-import { ItemCounter } from "./itemCounter";
+import { ItemCounter } from "./ItemCounter";
 
 export const ItemDetailsContainer = () => {
     const [item, setItem] = useState(null);
